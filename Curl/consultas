@@ -1,6 +1,6 @@
 EJERCICIO 1
-Buscar el top de albumes de la artista "ariana".
-curl "http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=ariana&api_key=$api_key&format=json" |json_pp
+Buscar el top de albumes de la artista "Cher".
+curl "http://ws.audioscrobbler.com/2.0/?method=artist.gettopalbums&artist=cher&api_key=$api_key&format=json" |json_pp
 
 EJERCICIO 2
 Muestra información sobre el album Believe de la artista Cher.
